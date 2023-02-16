@@ -14,6 +14,9 @@ body {
     padding: 0 20px;
 }
 
+
+/* Start Header CSS */
+
 .inner__menu {
     margin-top: 20px;
     display: flex;
@@ -61,5 +64,74 @@ body {
     border-bottom: solid 50px #FFF;
     border-radius: 20px;
 
+}
+
+/* End Header CSS */
+
+/* Start BIO CSS */
+
+.bio__inner {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 400px;
+    margin-bottom: 50px;
+    align-items: center;
 
 }
+
+.bio__inner-items-text {
+
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    max-width: 500px;
+
+}
+
+.bio__inner-items-img img {
+
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: solid 5px rgb(255, 123, 0);
+}
+
+/* End BIO CSS */
+
+/* Start LINKS CSS */
+
+.links {
+    color: #FFF;
+}
+
+.links__inner-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links__inner-list-name {
+
+    display: inline-block;
+    
+
+}
+
+.links__inner-list-description {
+
+    display: inline-block;
+
+}
+
+.links__inner-list-arrows {
+
+    display: inline-block;
+
+}
+
+.links__name, .links__description {
+    list-style-type: none;
+}
+
+
+/* End LINKS CSS */
