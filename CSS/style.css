@@ -17,7 +17,7 @@ body {
 
 /* Start Header CSS */
 
-.inner__menu {
+.header__menu {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -25,20 +25,20 @@ body {
     
 }
 
-.inner__menu-list a {
+.header__menu-list a {
     color: white;
     text-decoration: none;
     font-size: 40px;
 }
 
-.inner__menu-button button {
+.header__menu-button button {
     cursor: pointer;
     border-radius: 50%;
     width: 50px;
     height: 50px;
 }
 
-.header__inner-items {
+.header__inner {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
@@ -48,7 +48,7 @@ body {
  
 }
 
-.inner__items-text {
+.header__inner-text {
 
     text-align: center;
     color: white;
@@ -58,7 +58,7 @@ body {
 }
 
 
-.inner__items-img img {
+.header__inner-img img {
     width: 500px;
     height: 500px;
     border-bottom: solid 50px #FFF;
@@ -80,7 +80,7 @@ body {
 
 }
 
-.bio__inner-items-text {
+.bio__inner-text {
 
     text-align: center;
     color: white;
@@ -89,7 +89,7 @@ body {
 
 }
 
-.bio__inner-items-img img {
+.bio__inner-img img {
 
     width: 500px;
     height: 500px;
@@ -110,26 +110,10 @@ body {
     justify-content: space-between;
 }
 
-.links__inner-list-name {
 
-    display: inline-block;
-    
 
-}
 
-.links__inner-list-description {
-
-    display: inline-block;
-
-}
-
-.links__inner-list-arrows {
-
-    display: inline-block;
-
-}
-
-.links__name, .links__description {
+.list-name, .list-description {
     list-style-type: none;
 }
 
