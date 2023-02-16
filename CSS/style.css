@@ -21,8 +21,8 @@ body {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-   
-    
+
+
 }
 
 .header__menu-list a {
@@ -45,7 +45,6 @@ body {
     align-items: center;
 
 
- 
 }
 
 .header__inner-text {
@@ -54,9 +53,13 @@ body {
     color: white;
     font-size: 24px;
     max-width: 500px;
-  
+
 }
 
+
+.header__inner-img {
+    position: relative;
+}
 
 .header__inner-img img {
     width: 500px;
@@ -64,7 +67,38 @@ body {
     border-bottom: solid 50px #FFF;
     border-radius: 20px;
 
+  
 }
+
+.header__inner-img::after {
+    content: "";
+    opacity: 80%;
+    filter: blur(8px);
+    top: 70%;
+    left: 0;
+    display: inline-block;
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    background-color: aqua;
+
+}
+
+.header__inner-img::before {
+    content: "HelloKitty";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+    z-index: 1;
+    color: rgb(121, 0, 111);
+    top: 76%;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
 
 /* End Header CSS */
 
@@ -113,7 +147,8 @@ body {
 
 
 
-.list-name, .list-description {
+.list-name,
+.list-description {
     list-style-type: none;
 }
 
