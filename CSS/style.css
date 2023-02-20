@@ -67,7 +67,7 @@ body {
     border-bottom: solid 50px #FFF;
     border-radius: 20px;
 
-  
+
 }
 
 .header__inner-img::after {
@@ -133,24 +133,24 @@ body {
 
 /* End BIO CSS */
 
-/* Start LINKS CSS */
+/* Start Collection CSS */
 
-.links {
+.collection {
     color: #FFF;
 }
 
-.links__inner-list {
+.collection__items {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+}
+
+.item {
+    text-align: left;
 }
 
 
+/* End Collection CSS */
 
 
-.list-name,
-.list-description {
-    list-style-type: none;
-}
-
-
-/* End LINKS CSS */
