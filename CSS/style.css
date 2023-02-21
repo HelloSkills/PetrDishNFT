@@ -174,10 +174,11 @@ body {
 
 .aboutMe {
     height: 300px;
-    background-color: #f580e7;
+    background-color: #dd86d2;
     display: flex;
     align-items: center;
     margin-bottom: 50px;
+  
 
 }
 
