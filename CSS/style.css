@@ -137,17 +137,35 @@ body {
 
 .collection {
     color: #FFF;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .collection__items {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: flex-start; */
     border-bottom: 1px solid #fff;
-    text-align: left;
+    align-content: center;
+    padding: 10px 0;
+
 }
 
-.item {
+.collection__items:first-child>.item{
+    width: 100%;
     text-align: left;
+    
+}
+
+
+.item {
+    width: 45%;
+   
+}
+
+.item:last-child{
+    width: 10%;
+    text-align: right;
+
 }
 
 
