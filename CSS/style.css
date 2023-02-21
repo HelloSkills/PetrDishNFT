@@ -8,12 +8,20 @@ html {
     box-sizing: inherit;
 }
 
+html,
+body {
+	height: 100%;
+}
+
 body {
     background-color: black;
     align-items: center;
 }
 
-.container__all {
+.wrapper {
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
     padding: 0 20px;
 }
 
@@ -215,7 +223,7 @@ body {
 
 /* Start Footer CSS */
 
-.links {
+.footer {
     height: 150px;
     color: #dd86d2;
     display: flex;
@@ -226,9 +234,23 @@ body {
   
 }
 
-.links__items a {
+.footer__items a {
     text-decoration:none;
     color: #dd86d2;
 
 }
+
+ /* Footer fix down  */
+
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+ /* Footer fix down  */
+
 /* End Footer CSS */
+
+
