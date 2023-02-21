@@ -11,9 +11,11 @@ html {
 body {
     background-color: black;
     align-items: center;
-    padding: 0 20px;
 }
 
+.container__all {
+    padding: 0 20px;
+}
 
 /* Start Header CSS */
 
@@ -177,7 +179,6 @@ body {
     background-color: #dd86d2;
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
   
 
 }
@@ -214,6 +215,20 @@ body {
 
 /* Start Footer CSS */
 
+.links {
+    height: 150px;
+    color: #dd86d2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 0 100px;
+  
+}
 
+.links__items a {
+    text-decoration:none;
+    color: #dd86d2;
 
+}
 /* End Footer CSS */
