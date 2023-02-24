@@ -85,12 +85,13 @@ body {
     content: "";
     opacity: 80%;
     filter: blur(7px);
-    top: 70%;
-    left: 0.6%;
+    top: 69%;
+    left: 1%;
     position: absolute;
     height: 175px;
-    width: 592px;
+    width: 588px;
     background-color: aqua;
+    border-radius: 5%;
 
 }
 
