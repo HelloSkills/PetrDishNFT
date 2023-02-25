@@ -1,0 +1,258 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
+    padding: 0 20px;
+}
+
+/* Start Header CSS */
+
+.header__menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.header__menu-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.header__menu-button button {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    align-items: center;
+
+
+}
+
+.header__inner-text {
+
+    text-align: justify;
+    color: white;
+    font-size: 42px;
+    width: 55%;
+    
+
+}
+
+
+.header__inner-img {
+    position: relative;
+}
+
+.header__inner-img img {
+    width: 600px;
+    height: 600px;
+    border-bottom: solid 50px #FFF;
+    border-radius: 20px;
+
+
+}
+
+.header__inner-img::after {
+    content: "";
+    opacity: 80%;
+    filter: blur(7px);
+    top: 69%;
+    left: 1%;
+    position: absolute;
+    height: 175px;
+    width: 588px;
+    background-color: aqua;
+    border-radius: 5%;
+
+}
+
+.header__inner-img::before {
+    content: "HelloKitty";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+    z-index: 1;
+    color: rgb(121, 0, 111);
+    top: 80%;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* End Header CSS */
+
+/* Start BIO CSS */
+
+.bio__inner {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    align-items: center;
+
+}
+
+.bio__inner-text {
+
+    text-align: justify;
+    color: white;
+    font-size: 42px;
+    width: 55%;
+
+}
+
+.bio__inner-img img {
+
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: solid 5px rgb(255, 135, 0);
+}
+
+/* End BIO CSS */
+
+/* Start Collection CSS */
+
+.collection {
+    color: #FFF;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.collection__items {
+    display: flex;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+
+}
+
+.collection__items:first-child>.item {
+    width: 100%;
+    text-align: left;
+
+}
+
+
+.item {
+    width: 45%;
+
+}
+
+.item:last-child {
+    width: 10%;
+    text-align: right;
+
+}
+
+
+/* End Collection CSS */
+
+
+/* Start AboutMe CSS */
+
+/* .aboutMe {
+    height: 300px;
+    background-color: #dd86d2;
+    display: flex;
+    align-items: center;
+  
+
+}
+
+.aboutMe__inner {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.aboutMe__inner-text {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+.inner-item.title {
+
+    font-size: 44px;
+
+}
+
+.aboutMe__inner-pageUp {
+    display: flex;
+    align-items: center;
+
+
+} */
+
+/* End AboutMe CSS */
+
+/* Start Footer CSS */
+
+.footer {
+    height: 150px;
+    color: rgb(255, 135, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 0 100px;
+  
+}
+
+.footer__items a {
+    text-decoration:none;
+    color: rgb(255, 135, 0);
+
+}
+
+ /* Footer fix down  */
+
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+ /* Footer fix down  */
+
+/* End Footer CSS */
+
+
