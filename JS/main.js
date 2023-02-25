@@ -37,3 +37,9 @@ let soundButton = document.querySelector('.soundbutton'),
         soundButton.classList.toggle('paused')
         audio.paused ? audio.play() : audio.pause ()
     })
+
+    window.onblur = function () {
+        audio.pause ()
+        soundButton.classList.toggle('paused')
+    }
+    
