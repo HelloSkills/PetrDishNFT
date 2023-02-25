@@ -4,12 +4,24 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: raleway_c;
+    src: url(../Fonts/raleway-v22-cyrillic-300.woff2);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: raleway_c;
+    src: url(../Fonts/raleway-v22-cyrillic-100.woff2);
+    font-weight: 100;
+}
+
 :root {
     --index: calc(1vw + 1vh);
     --gutter: 30px; 
-    --side-small: 25;
-    --side-big: 25;
-    --depth: 8000px;
+    --side-small: 20;
+    --side-big: 20;
+    --depth: 10000px;
     --transition: .75s cubic-bezier(.075, .5, 0,1)
  
 }
@@ -24,6 +36,7 @@ body {
     font-size: calc(var(--index) * .8);
     line-height: 1.75;
     height: var(--depth);
+    font-family: raleway_c, sans-serif;
 }
 
 body::-webkit-scrollbar { 
@@ -56,6 +69,7 @@ body::-webkit-scrollbar {
     will-change: transform;
     transform-style: preserve-3d;
 }
+
 
 h1, h2, h3, h4 {
     font-weight: 100;
@@ -92,6 +106,8 @@ h1, h2, h3, h4 {
 .frame_bg {
     background-color: rgb(0 0 0 / .8);
 }
+
+
 
 .text-left > * {
     position: relative;
