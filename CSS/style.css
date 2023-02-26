@@ -16,7 +16,13 @@
     font-weight: 100;
 }
 
-
+.body_hide {
+	opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
 
 :root {
     --index: calc(1vw + 1vh);
