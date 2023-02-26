@@ -1,6 +1,6 @@
 setTimeout(function(){
 	document.body.classList.add('body_visible');
-}, 200);
+}, 500);
 
 // 3D Scroll
 
@@ -30,7 +30,7 @@ window.onscroll = function () {
 
 }    
 
-window.scrollTo(0, 1)
+window.scrollTo(0, 10)
 
 // Audio
 
